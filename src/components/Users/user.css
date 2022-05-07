@@ -1,0 +1,26 @@
+.edit-button{
+    cursor: pointer;
+}
+
+.delete-button{
+    cursor : pointer;
+    color:"#DA1212";
+}
+.search_header{
+    display: flex;
+    flex :1;
+}
+.search_input{
+    height : 20px;
+    padding : 10px;
+
+}
+
+.search_icon{
+background-color :#6475dd;
+padding: 5px;
+
+}
+.capitalise{
+  text-transform: capitalize;
+}

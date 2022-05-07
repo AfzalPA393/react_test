@@ -1,0 +1,13 @@
+.login{
+    border: 1px solid #ededed;
+    padding: 20px;
+    width : 500px;
+    margin: 20px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+ 
+.login-color{
+    background: #3E497A ;
+    color:white;
+}

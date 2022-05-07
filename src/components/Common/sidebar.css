@@ -1,0 +1,89 @@
+.my-row {
+  background-color: #f3f5ff;
+  height: 100%;
+}
+.sidebar-bg {
+  background-color: #18275e;
+}
+.menu-bars {
+  display: flex;
+  margin-left: 2rem;
+  font-size: 2rem;
+  background: none;
+}
+.my-button {
+  border: none;
+  background: inherit;
+  margin-right: 10px;
+}
+
+.nav-menu {
+  margin-top: 0;
+  left: -100%;
+  transition: 850ms;
+}
+.nav-menu.active {
+  margin: 0;
+  display: none;
+  transition: 350ms;
+}
+
+.my-icon {
+  width: 16px;
+  height: 16px;
+}
+.nav-link:active,
+.nav-link:focus {
+  background: #3b1eb3;
+  color: white;
+}
+
+.my-link {
+  color: white;
+  text-decoration: none;
+}
+.my-list {
+  background: #18275e;
+  color: white;
+}
+@media screen and (max-width: 1098px){
+  .my-link{
+
+    text-align:center;
+  }
+}
+@media screen and (max-width: 898px) {
+  .my-link {
+
+    width: 100%;
+    text-align: center;
+  }
+  .title{
+    display:none;
+  }
+}
+@media screen and (max-width:414px){
+
+  .my-link{
+   width:100%;
+   text-align: center;
+  }
+  .title{
+    display:none;
+  }
+}
+
+@media screen and (min-width:900px) and (max-width:1313px){
+  .sidebar{
+    width:189px;
+  }
+  .my-link{
+  margin-left: 0;
+  padding:auto;
+  text-align: left;
+  }
+  .title{
+    display: inline;
+    text-align: left;
+  }
+}
